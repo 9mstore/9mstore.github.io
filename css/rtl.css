@@ -1,0 +1,68 @@
+/*
+Theme Name: Apkly
+Author: RedGraphic
+Author URI: http://www.RedGraphic.ir
+Version: 1.0
+*/
+
+@font-face{
+    font-family:yekan;
+    font-style:normal;
+    font-weight:bold;
+    src:url('../fonts/iranyekanwebbold.eot');
+    src:url('../fonts/iranyekanwebbold.eot?#iefix') format('embedded-opentype'), url('../fonts/iranyekanwebbold.woff2') format('woff2'), url('../fonts/iranyekanwebbold.woff') format('woff'), url('../fonts/iranyekanwebbold.ttf') format('truetype')
+}
+@font-face{
+    font-family:yekan;
+    font-style:normal;
+    font-weight:normal;
+    src:url('../fonts/iranyekanwebregular.eot');
+    src:url('../fonts/iranyekanwebregular.eot?#iefix') format('embedded-opentype'), url('../fonts/iranyekanwebregular.woff2') format('woff2'), url('../fonts/iranyekanwebregular.woff') format('woff'), url('../fonts/iranyekanwebregular.ttf') format('truetype')
+}
+@font-face{
+    font-family:yekan;
+    font-style:normal;
+    font-weight:300;
+    src:url('../fonts/iranyekanweblight.eot');
+    src:url('../fonts/iranyekanweblight.eot?#iefix') format('embedded-opentype'), url('../fonts/iranyekanweblight.woff2') format('woff2'), url('../fonts/iranyekanweblight.woff') format('woff'), url('../fonts/iranyekanweblight.ttf') format('truetype')
+}
+
+body{direction:rtl;font-family:yekan;text-align:right;}
+
+.navbar-light .navbar-nav .nav-link,.navbar-light .navbar-brand,.banner-text h2,.banner-text h3,.banner-text p,.banner-text a,.overview-head h2,.over-text p,
+.over-text h3,.over-text a,.f-text h2,.f-text h3,.p-padding,.f-text p,.counter-1 h4,.counter-1 h3,.count-btn a,.price-item h3,.price-item span,.price-item a,
+.price-item p.pro-text h2,.pro-text h3,.mb-0 .btn-link,.pro-text h2,.faq-bottom-btn a,.download-head h2,.download-head h3,.download-details p,.download-details a,
+.download-item h3,.download-item a,.blog-text-main h3,.extra1,.blog-text-main a,.blog-text a,.blog-text h3,.mix p,.mix input,.testimonial-item p,.testimonial-item p,
+.testimonial-item span,.testimonial-item h3,.price-item p,.nb-2,.fg2 button,.footer-text h3,.footer-text a,.footer-text p,.copyright-text p,.copyright-text a
+{font-family:yekan;}
+
+.navbar-brand {margin-right:0;margin-left:1rem;}
+.slick-slider,#screenshot{direction:ltr;}
+.banner-img{text-align:left;}
+.overview-head h2{letter-spacing:0;}
+.over-text h3::after{left:auto;right:0;}
+.over-text p{padding-right:0;padding-left:10px;direction:rtl;}
+.over-text a i{padding-right: 8px;}
+.over-text a:hover i{padding-right:12px;}
+.over-text{padding-right:0;}
+.over-i{padding-left:0;}
+.slick-list{padding:10px 0;}
+.f-text p i{margin-right:0;margin-left:18px;}
+.p-padding{font-family:yekan!important;}
+.card-header{border-left:0;border-right:1px solid #4050b5;}
+.blog-text-main{padding-right:20px;}
+.user-data span{display:inline-block;}
+.blog-text-main a i{padding-right:4px;}
+.blog-text-main a:hover i{padding-right:8px;}
+.blog-text-main p{text-align:justify;}
+.blog-text a i{padding-right:4px;}
+.blog-text a:hover i{padding-right:8px;}
+.blog-item{padding-bottom:46px;}
+.no-bb{border-bottom:0;}
+.mix input[type=email]{font-family: rr;}
+.kc-wrap{text-align:left;}
+.testimonial-item p{direction:rtl;}
+.fg2 button{left:16px;right:auto;border-radius: 50px 0px 0 50px;}
+.fg2 button:hover i{padding-right:0;}
+.footer-text h3:after{left:auto;right:0;}
+.copyright-text p{font-size:14px;}

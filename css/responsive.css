@@ -1,0 +1,520 @@
+.navbar-toggler:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    background: none;
+}
+
+.navbar-light .navbar-toggler {
+    color: white;
+    outline: 0;
+}
+
+.navbar-toggler i {
+    font-size: 28px;
+}
+
+.nav-bg i {
+    color: #fff;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+@media(max-width:479px) {
+    .banner-img::after {
+        left: 45px;
+        width: 160px;
+        height: 160px;
+        top: 80px;
+    }
+}
+
+@media(min-width:480px) and (max-width:575px) {
+    .banner-img::after {
+        left: 98px;
+        width: 233px;
+        height: 233px;
+        top: 80px;
+    }
+
+}
+
+@media(max-width:575px) {
+    .navbar-collapse {
+        background: #1d2029;
+        z-index: 999999;
+    }
+
+    .menu-item {
+        padding-right: 0;
+        padding-top: 20px;
+    }
+
+    .nav-bg .navbar-brand {
+        margin-right: 10px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+
+    .mov-arrow {
+        display: none;
+    }
+    .overview-head h2{
+        font-size: 35px;
+    }
+    .over-text h3::after {
+        left: 50%!important;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+	
+
+.over-text{padding-right:15px!important;}
+.over-i{padding-left:15px!important;padding-top:15px;}
+
+    #banner::before {
+        bottom: -45px;
+
+    }
+
+    .over-text h3 {
+        padding-top: 17px;
+        padding-bottom: 11px;
+    }
+
+    .price-main {
+        margin-bottom: 30px;
+    }
+
+    .m-responsive {
+        margin: 0 auto;
+    }
+
+    .over-text p {
+        padding: 0 23px;
+    }
+
+    .over-item {
+        text-align: center;
+    }
+
+    #banner {
+        padding: 115px 0 80px;
+    }
+
+    .banner-img {
+        padding-top: 65px;
+    }
+
+    .download-details p {
+        padding-bottom: 10px;
+    }
+
+    .banner-text::after,
+    .banner-img::before {
+        display: none;
+    }
+
+    .circle::after,
+    .banner-text::before {
+        display: none;
+    }
+
+    .f-img::after {
+        width: 250px;
+        height: 250px;
+    }
+
+    .f-text {
+        padding-left: 20px;
+    }
+
+    .f-text h2 {
+        padding-top: 25px;
+    }
+
+    .f-text p {
+        font-size: 15px;
+    }
+
+    #feature {
+        padding: 180px 0 80px;
+        position: relative;
+    }
+
+    .count-i {
+        padding-top: 60px;
+    }
+
+    .pro-text {
+        padding-left: 0;
+    }
+
+    .pro-text h2 {
+        padding-top: 31px;
+    }
+
+    .faq-bottom-btn {
+        padding-top: 30px;
+    }
+
+    .download-p {
+        padding-top: 16px;
+    }
+
+    .download-details {
+        padding-bottom: 75px;
+        padding-top: 15px;
+    }
+
+    .download-item p {
+        padding: 0 10px 15px;
+    }
+
+    #download {
+        padding: 85px 0 30px;
+    }
+
+    .blog-text-main {
+        margin-bottom: 30px;
+    }
+
+    .user-data {
+        padding-bottom: 13px;
+    }
+
+    .blog-text h3 {
+        font-size: 18px;
+    }
+
+    #blog {
+        padding: 80px 0 60px;
+    }
+
+    .testimonial-item p {
+        padding: 20px 0 0;
+    }
+
+    #screenshot {
+        padding: 180px 0 80px;
+        position: relative;
+    }
+
+    .no-p2 {
+        padding-top: 25px !important;
+    }
+
+    .footer-text {
+        padding-bottom: 20px;
+    }
+
+}
+
+@media(min-width:576px) and (max-width:767px) {
+    .navbar-collapse {
+        background: #1d2029;
+        z-index: 999999;
+    }
+
+    .menu-item {
+        padding-right: 0;
+    }
+
+    .nav-bg .navbar-brand {
+        margin-left: 10px;
+    }
+
+    .mov-arrow {
+        display: none;
+    }
+
+    .price-main {
+        margin-bottom: 30px;
+    }
+
+    .m-responsive {
+        margin: 0 auto;
+    }
+
+    .over-text h3::after {
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+    .over-text h3 {
+        padding-top: 17px;
+        padding-bottom: 11px;
+    }
+
+    .over-text p {
+        padding: 0 23px;
+    }
+
+    .over-item {
+        text-align: center;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+
+    .menu-item {
+        padding-right: 0;
+        padding-top: 20px;
+    }
+
+    .banner-img::after {
+        width: 300px;
+        height: 300px;
+    }
+
+    .banner-text::after,
+    .banner-img::before {
+        display: none;
+    }
+
+    .circle::after,
+    .banner-text::before {
+        display: none;
+    }
+
+    #banner {
+        padding: 138px 0 80px;
+    }
+
+    #overview {
+        padding: 115px 0 40px;
+    }
+
+    .f-text h2 {
+        padding-top: 29px;
+    }
+
+    .f-text {
+        padding-left: 15px;
+    }
+
+    .count-i {
+        padding-top: 50px;
+    }
+
+    .pro-text h2 {
+        padding-top: 56px;
+    }
+
+    .faq-bottom-btn {
+        padding-top: 20px;
+    }
+
+    .download-details {
+        padding-bottom: 50px;
+        padding-top: 15px;
+    }
+
+    .download-item p {
+        padding: 0 0 15px;
+    }
+
+    #download {
+        padding: 85px 0 50px;
+    }
+
+    .blog-text-main {
+        margin-bottom: 30px;
+    }
+
+    .user-data {
+        padding-bottom: 13px;
+    }
+
+    .testimonial-item p {
+        padding: 20px 0 0;
+    }
+
+    #screenshot {
+        padding: 80px 0 50px;
+    }
+
+    .footer-text {
+        padding-bottom: 20px;
+    }
+
+}
+
+
+@media(min-width:768px) and (max-width:991px) {
+    .navbar-collapse {
+        background: #1d2029;
+        z-index: 999999;
+    }
+
+    .menu-item {
+        padding-right: 0;
+    }
+
+    .mov-arrow {
+        display: none;
+    }
+
+    .price-main {
+        margin-bottom: 30px;
+    }
+
+    .over-text h3::after {
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+    .over-text h3 {
+        padding-top: 17px;
+        padding-bottom: 11px;
+    }
+
+    .over-text p {
+        padding: 0 23px;
+    }
+
+    .over-item {
+        text-align: center;
+    }
+
+    .nav-bg .navbar-brand {
+        margin-right: 10px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+
+    .menu-item {
+        padding-right: 0;
+        padding-top: 20px;
+    }
+
+    #banner {
+        padding: 170px 0 120px;
+    }
+
+    .banner-img::after {
+        top: 30px;
+        left: 12px;
+        width: 255px;
+        height: 255px;
+    }
+
+    .banner-text {
+        padding-top: 28px;
+    }
+
+    .banner-text::before {
+        display: none;
+    }
+
+    .banner-text h2 {
+        font-size: 35px;
+    }
+
+    #overview {
+        padding: 120px 0 50px;
+    }
+
+    .f-text h2 {
+        padding-top: 40px;
+    }
+
+    .count-i {
+        padding-top: 76px;
+    }
+
+    .pro-text h2 {
+        padding-top: 70px;
+    }
+
+    .faq-bottom-btn {
+        padding-top: 20px;
+    }
+
+    .download-p {
+        padding-top: 15px;
+    }
+
+    .download-details {
+        padding-bottom: 50px;
+        padding-top: 15px;
+    }
+
+    .download-item p {
+        padding: 0 24px 15px;
+    }
+
+    #download {
+        padding: 85px 0 50px;
+    }
+
+    .blog-text h3 {
+        padding-top: 10px;
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .user-data {
+        padding-bottom: 13px;
+    }
+
+    .blog-text2 {
+        padding-top: 0;
+    }
+
+    .app-res {
+        display: block;
+    }
+
+    #screenshot {
+        padding: 80px 0 50px;
+    }
+
+    .testimonial-item p {
+        padding: 20px 56px 0;
+    }
+
+    .footer-text {
+        padding-bottom: 20px;
+    }
+}
+
+@media(min-width:992px) and (max-width:1131px) {
+    .mov-arrow {
+        display: none;
+    }
+}
+
+@media(min-width:992px) and (max-width:1124px) {
+    .f-img::after {
+        width: 450px;
+        height: 450px;
+        left: 22px;
+    }
+}
+
+@media(min-width:992px) and (max-width:1199px) {
+    .banner-img::after {
+        top: 29px;
+        left: 82px;
+        width: 340px;
+        height: 340px;
+    }
+
+    .over-i i {
+        font-size: 36px;
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+    }
+}
