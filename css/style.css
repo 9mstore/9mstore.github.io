@@ -267,7 +267,7 @@ a:focus {
 /* version 2 */
 #index2 #banner::after {
     position: absolute;
-    content: '';
+/*     content: ''; */
     top: 0;
     left: 0;
     width: 100%;
