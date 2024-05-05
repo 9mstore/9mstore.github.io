@@ -1049,6 +1049,8 @@ a:focus {
     font-family: rb;
     color: #4050b5;
     padding-left: 5px;
+    white-space: normal;
+    text-align: right;
 }
 
 .mb-0 .btn-link i {
